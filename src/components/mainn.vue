@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="informer-container">
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import mainn from './components/mainn.vue'
 
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+export default{
+  name: 'mainn',
+  data(){
+    return {text: 'Я новый компонент!'}
   }
 }
 </script>
@@ -25,4 +22,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>
